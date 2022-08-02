@@ -1,0 +1,66 @@
+.footer{
+    font-family: 'Cascadia Code', 'sans-serif';
+    display: flex;
+    background-color: $footerbackground;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 18px;
+    color: $footertext;
+
+    .imagenwhatsapp{
+        height: $iconsize;
+        transition: all 0.5s;
+    }
+
+    .imagenwhatsapp:hover{
+        transform: rotateX(90deg);
+    }
+
+    .imagentwitter{
+        height: $iconsize;
+        transition: all 0.5s;
+    }
+
+    .imagentwitter:hover{
+        transform: rotateX(90deg);
+    }
+
+    .imageninstagram{
+        height: $iconsize;
+        transition: all 0.5s;
+    }
+
+    .imageninstagram:hover{
+        transform: rotateX(90deg);
+    }
+
+    .imagenfacebook{
+        height: $iconsize;
+        transition: all 0.5s;
+    }
+
+    .imagenfacebook:hover{
+        transform: rotateX(90deg);
+    }
+
+    .imagentelegram{
+        height: $iconsize;
+        transition: all 0.5s;
+    }
+
+    .imagentelegram:hover{
+        transform: rotateX(90deg);
+    }
+
+    .imagengmail{
+        height: $iconsize;
+        transition: all 0.5s;
+    }
+
+    .imagengmail:hover{
+        transform: rotateX(90deg);
+    }
+}
